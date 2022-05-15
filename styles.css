@@ -1,8 +1,39 @@
+:root {
+  --primary-color: #abdda0;
+  --header-font
+}
+body {
+  border: 7px solid var(--primary-color);
+}
+.hero {
+  text-align: center;
+  margin: 150px 0;
+}
+
 h1 {
   font-family: "Playfair Display", serif;
 }
 
 p {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 23px;
+  line-height: 2;
+}
+p,
+h2 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
+  opacity: 0.8;
 }
+
+.btn-branding {
+  background: var(--primary-color);
+  color: #f075a1;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+}
+
