@@ -30,10 +30,18 @@ h2 {
 }
 
 .btn-branding {
+font-family: "Poppins", sans-serif;
+font-weight: bold;
   background: var(--primary-color);
   color: #f075a1;
+  border: 2px solid #F1BCD6;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 27px;
+}
+
+.btn-branding:hover {
+    color: white;
+   
 }
 
