@@ -29,6 +29,11 @@ h2 {
   opacity: 0.8;
 }
 
+.invitation {
+    text-align: center;
+    font-size: 15px;
+}
+
 .btn-branding {
 font-family: "Poppins", sans-serif;
 font-weight: bold;
