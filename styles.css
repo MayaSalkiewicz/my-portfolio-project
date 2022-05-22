@@ -1,6 +1,6 @@
 :root {
   --primary-color: #abdda0;
-  --header-font
+  
 }
 body {
   border: 7px solid var(--primary-color);
@@ -58,7 +58,7 @@ font-weight: bold;
   font-size: 12px;
 }
 
-img {
-  
+.content-container {
+  padding: 160px 20px;
 }
 
