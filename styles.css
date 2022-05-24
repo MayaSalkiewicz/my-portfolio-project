@@ -1,6 +1,5 @@
 :root {
   --primary-color: #abdda0;
-  
 }
 body {
   border: 7px solid var(--primary-color);
@@ -30,24 +29,23 @@ h2 {
 }
 
 .invitation {
-    text-align: center;
-    font-size: 15px;
+  text-align: center;
+  font-size: 15px;
 }
 
 .btn-branding {
-font-family: "Poppins", sans-serif;
-font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
   background: var(--primary-color);
   color: #f075a1;
-  border: 2px solid #F1BCD6;
+  border: 2px solid #f1bcd6;
   border-radius: 4px;
   font-size: 15px;
   line-height: 27px;
 }
 
 .btn-branding:hover {
-    color: white;
-   
+  color: white;
 }
 
 .about-me {
@@ -62,3 +60,6 @@ font-weight: bold;
   padding: 160px 20px;
 }
 
+.contact-container h3 {
+  margin-top: 25px;
+}
