@@ -2,8 +2,13 @@
   --primary-color: rgb(171, 221, 160);
   --secondary-color: rgb(240, 117, 161);
 }
+
 body {
   border: 7px solid var(--primary-color);
+}
+
+.navbar-main {
+  border: 2px solid var(--primary-color);
 }
 
 .hero {
@@ -73,7 +78,7 @@ h2 {
 }
 
 footer {
-  margin: 100px 150px;
+  margin: 100px 150px 40px;
 }
 
 footer .contact-box {
@@ -119,4 +124,28 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background-color: var(--primary-color);
+}
+
+footer p {
+  font-size: 12px;
+}
+
+@media (max-width: 993px){
+img {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+}
+
+@media (max-width: 529px) {
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 15px;
+  }
 }
