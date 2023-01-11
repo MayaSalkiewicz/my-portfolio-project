@@ -40,7 +40,8 @@
     <link rel="stylesheet" href="/styles.css" />
     <title>Front-end developer - Maya Salkiewicz</title>
   </head>
-  <body class="mx-5 my-5 rounded">
+  <body>
+    <div class="container ">
     <nav
       class="navbar navbar-expand-lg navbar-main navbar-light bg-white p-0 shadow rounded mx-5 my-5"
     >
@@ -101,19 +102,43 @@
     <p class="invitation">Here are some feature projects I decided to show</p>
     <div class="container mt-5 mb-5">
       <div class="row mx-5 my-5">
+        <div class="col text-lg-start text-center">
+          <h1>Dictionary App</h1>
+          <p class="pt-3 pb-3">
+            I'm very proud of this Project! You can type a word, press enter and get know the meaning, synonyms, phonetic, even listening how to pronounce!
+            I like React a lot! That's the first time, when I used two different API's 🤓. It's very intuitive and with components code looks so clear. 
+            Not easy, but what's new easy? I already started full React course on Udemy.com. So I will be pro soon 😎. 
+          
+          </p>
+          <a
+            href="./work.html"
+            class="btn btn-branding shadow"
+            >Learn more</a
+          >
+        </div>
         <div class="col d-lg-block d-none">
           <img
-            src="images/yogaApp.png"
-            class="img-fluid shadow p-2 rounded d-sm-block-d-none"
-            alt="Yoga project"
+            src="images/dictionaryapp.png"
+            class="img-fluid shadow p-2 rounded"
+            alt="Weather project"
+          />
+        </div>
+      </div>
+      <div class="row mx-5 my-5">
+        <div class="col d-lg-block d-none">
+          <img
+            src="images/weatherReactApp.png"
+            class="img-fluid shadow px-2 py-5 rounded d-sm-block-d-none"
+            alt="React-weather-project"
           />
         </div>
         <div class="col text-lg-start text-center">
-          <h1>Yoga App</h1>
+          <h1>React Weather App</h1>
           <p class="pt-3 pb-3">
-            So, from this project, everything started. After my first two weeks
-            coding SheCodes course, I have learned HTML and basic css. As a
-            project we had to built a little page we are intrested about.
+            My first steps with React. I was very afraid to start this course, 
+            but oh my God, I love it! React is very samrt and intuitive. The code is much
+            clearer than in JS. So, I'm starting a huge React course from beginner to advanced! 
+            Wish me luck 😍!
           </p>
           <a href="/work.html" class="btn btn-branding shadow">Learn more</a>
         </div>
@@ -141,22 +166,7 @@
           />
         </div>
       </div>
-      <div class="row mx-5 my-5">
-        <div class="col d-lg-block d-none">
-          <img
-            src="images/weatherReactApp.png"
-            class="img-fluid shadow px-2 py-5 rounded d-sm-block-d-none"
-            alt="Yoga project"
-          />
-        </div>
-        <div class="col text-lg-start text-center">
-          <h1>Weather React App</h1>
-          <p class="pt-3 pb-3">
-          My first steps with React. I was very afraid to start this course, but oh my God, I love it! React is very samrt and intuitive. The code is much clearer than in JS. So, I'm starting a huge React course from beginner to advanced! Wish me luck 😍!
-          </p>
-          <a href="/work.html" class="btn btn-branding shadow">Learn more</a>
-        </div>
-    </div>
+      
     <footer>
       <div class="contact-box d-flex justify-content-between d-none d-lg-flex">
         <div>
@@ -171,8 +181,7 @@
       </div>
       <div class="d-flex justify-content-center">
         <a href="salkiewicz.maya@gmail.com" class="email-link"
-          >salkiewicz.maya@gmail.com</a
-        >
+          >salkiewicz.maya@gmail.com</a>
       </div>
       <div class="social-links d-flex justify-content-center">
         <a href="https://github.com/MayaSalkiewicz"
@@ -192,5 +201,6 @@
         >open-sourced</a
       >
     </p>
+  </div>
   </body>
 </html>
