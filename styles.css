@@ -7,10 +7,12 @@ body {
   border: 7px solid var(--primary-color);
   max-width: 1100px;
   margin: 20px auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .container {
   justify-content: center;
+  background-color: white;
 }
 
 .navbar-main {
@@ -59,6 +61,16 @@ h2 {
 
 .btn-branding:hover {
   color: white;
+}
+
+.card-btn {
+  background: var(--secondary-color);
+  border: var(--secondary-color);
+  transition: all 150ms ease-in-out;
+}
+
+.card-btn:hover {
+  background: var(--primary-color);
 }
 
 .about-me {
