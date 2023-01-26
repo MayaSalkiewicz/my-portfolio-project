@@ -89,9 +89,15 @@ h2 {
   padding: 150px 20px;
 }
 
+.contact-container {
+  margin-left: 25px;
+  max-width: 400px;
+}
+
 .contact-container h3 {
-  margin-top: 25px;
+  margin-top: 45px;
   opacity: 0.9;
+  padding-right: 50px;
 }
 
 .contact-container a {
@@ -180,5 +186,9 @@ footer p {
   .card-group {
     display: flex;
     flex-direction: column;
+  }
+
+  .contact-container {
+    max-width: 200px;
   }
 }
