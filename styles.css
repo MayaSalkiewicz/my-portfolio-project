@@ -158,6 +158,9 @@ footer p {
 }
 
 @media (max-width: 529px) {
+  nav {
+    padding: 10px 5px;
+  }
   h1 {
     font-size: 28px;
   }
